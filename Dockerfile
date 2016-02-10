@@ -11,4 +11,4 @@ MAINTAINER Ian Culshaw <ian@yunojuno.com>
 
 # We want to use bower and grunt from the command line,
 # so need to install globally and not via package.json
-RUN npm install --global gulp-cli bower
+RUN npm install --global gulpjs/gulp-cli#4.0 bower
